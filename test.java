@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class klasa {
+public class test {
     public static void main(String[] args) {
-        System.out.println("Witam w kutasowie");
+        System.out.println("Witam w programie");
 
         Scanner scaner = new Scanner(System.in);
         System.out.println("Podaj liczbę:");
@@ -15,6 +15,7 @@ public class klasa {
             System.out.println("Podana liczba to:" +inputNumber + " i jest parzysta");
             } else {
             System.out.println("Podana liczba to:" +inputNumber + " i jest nieparzysta");
+            System.out.println("Jebac kramka");
         }
     }
 }
