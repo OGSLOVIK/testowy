@@ -1,18 +1,20 @@
-import javax.swing.*;
 import java.util.Scanner;
 
-public class test {
+public class klasa {
     public static void main(String[] args) {
-        System.out.println("Witam, jestem programem sprawdzającym parzystość liczby");
+        System.out.println("Witam w kutasowie");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj liczbe");
+        Scanner scaner = new Scanner(System.in);
+        System.out.println("Podaj liczbę:");
 
-    int inputNumber1 = scanner.nextInt();
-    scanner.close();
+        int inputNumber = scaner.nextInt();
+        scaner.close();
 
-    if()
-
-    System.out.println("Podana liczba to:" + inputNumber);
-  }
+        // Sprawdź czy liczba jest parzysta czy nieparzysta
+        if (inputNumber % 2 == 0) {
+            System.out.println("Podana liczba to:" +inputNumber + " i jest parzysta");
+            } else {
+            System.out.println("Podana liczba to:" +inputNumber + " i jest nieparzysta");
+        }
+    }
 }
