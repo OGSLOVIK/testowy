@@ -5,10 +5,11 @@ public class Exercise1 {
 
         System.out.println("Witam w konwerterze temperatury");
         System.out.println("Podaj temperaturę w *C : ");
-        float value = userInput.nextInt();
+        float value = userInput.nextFloat();
         double Fahrenheit = 1.8;
 
         double wynik = (Fahrenheit * value + 32.0 );
+
         System.out.println("Temperature w Fahrenheit to : " +wynik);
 
     }
