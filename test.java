@@ -15,7 +15,6 @@ public class test {
             System.out.println("Podana liczba to:" +inputNumber + " i jest parzysta");
             } else {
             System.out.println("Podana liczba to:" +inputNumber + " i jest nieparzysta");
-            System.out.println("Jebac kramka");
         }
     }
 }
